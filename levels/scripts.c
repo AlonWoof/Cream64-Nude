@@ -72,7 +72,7 @@ const LevelScript level_main_scripts_entry[] = {
     LOAD_MODEL_FROM_GEO(MODEL_MARIO_UNICORN,           mario_unicorn_geo),
     LOAD_MODEL_FROM_GEO(MODEL_MARIO_YUKATA,            mario_yukata_geo),
     LOAD_MODEL_FROM_GEO(MODEL_MARIO_VANILLA,           mario_vanilla_geo),
-    LOAD_MODEL_FROM_GEO(MODEL_MARIO_BEAN,              mario_bean_geo),
+    LOAD_MODEL_FROM_GEO(MODEL_MARIOFLY,              mariofly_geo),
     LOAD_MODEL_FROM_GEO(MODEL_MARIO_MARIO,             mario_mario_geo),
     LOAD_MODEL_FROM_GEO(MODEL_MARIO_LUFFY,             mario_luffy_geo),
     LOAD_MODEL_FROM_GEO(MODEL_MARIO_ICHIBAN,           mario_ichiban_geo),

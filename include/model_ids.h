@@ -29,7 +29,7 @@
 #define MODEL_MARIO_UNICORN               0x1FC        // mario_unicorn_geo
 #define MODEL_MARIO_YUKATA                0x1FB        // mario_yukata_geo
 #define MODEL_MARIO_VANILLA               0x1FA        // mario_vanilla_geo
-#define MODEL_MARIO_BEAN                  0x1F9        // mario_bean_geo
+#define MODEL_MARIOFLY                  0x1F9        // mario_bean_geo
 #define MODEL_MARIO_MARIO                 0x1F8        // mario_mario_geo
 #define MODEL_MARIO_LUFFY                 0x1F7        // mario_luffy_geo
 #define MODEL_MARIO_ICHIBAN               0x1F6        // mario_ichiban_geo

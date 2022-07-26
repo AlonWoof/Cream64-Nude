@@ -36,6 +36,7 @@
 #include "mario_yukata/model.inc.c"
 #include "mario_vanilla/model.inc.c"
 #include "mario_bean/model.inc.c"
+#include "mariofly/model.inc.c"
 #include "mario_mario/model.inc.c"
 #include "mario_luffy/model.inc.c"
 #include "mario_ichiban/model.inc.c"

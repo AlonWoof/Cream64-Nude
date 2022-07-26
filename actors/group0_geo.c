@@ -25,6 +25,7 @@
 #include "mario_yukata/geo.inc.c"
 #include "mario_vanilla/geo.inc.c"
 #include "mario_bean/geo.inc.c"
+#include "mariofly/geo.inc.c"
 #include "mario_mario/geo.inc.c"
 #include "mario_luffy/geo.inc.c"
 #include "mario_ichiban/geo.inc.c"

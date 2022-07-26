@@ -364,6 +364,8 @@ extern const Gfx white_particle_small_unused_dl[];
 
 #include "mario_bean/geo_header.h"
 
+#include "mariofly/geo_header.h"
+
 #include "mario_mario/geo_header.h"
 
 #include "mario_luffy/geo_header.h"
