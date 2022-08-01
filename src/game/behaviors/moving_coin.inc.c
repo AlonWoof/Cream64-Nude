@@ -61,6 +61,10 @@ void bhv_moving_yellow_coin_init(void) {
 void bhv_moving_yellow_coin_loop(void) {
     s16 collisionFlags;
 
+
+    o->oAngleVelYaw = 1500;
+    cur_obj_rotate_face_angle_using_vel();
+
     switch (o->oAction) {
         case MOV_YCOIN_ACT_IDLE:
             coin_step(&collisionFlags);
@@ -115,6 +119,9 @@ void bhv_moving_blue_coin_init(void) {
 
 void bhv_moving_blue_coin_loop(void) {
     s16 collisionFlags;
+
+    o->oAngleVelYaw = 1500;
+    cur_obj_rotate_face_angle_using_vel();
 
     switch (o->oAction) {
         case MOV_BCOIN_ACT_STILL:
@@ -192,6 +199,9 @@ void blue_coin_sliding_slow_down(void) {
 
 void bhv_blue_coin_sliding_loop(void) {
     s16 collisionFlags;
+	
+	o->oAngleVelYaw = 1500;
+    cur_obj_rotate_face_angle_using_vel();
 
     switch (o->oAction) {
         case 0:
@@ -243,6 +253,9 @@ void bhv_blue_coin_sliding_loop(void) {
 
 void bhv_blue_coin_jumping_loop(void) {
     s16 collisionFlags;
+	
+	o->oAngleVelYaw = 1500;
+    cur_obj_rotate_face_angle_using_vel();
 
     switch (o->oAction) {
         case 0:

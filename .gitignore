@@ -128,3 +128,4 @@ platform/android/android/lib/*/libc++_shared.so
 .metadata/version.ini
 .project
 .settings/language.settings.xml
+.settings/org.eclipse.core.resources.prefs

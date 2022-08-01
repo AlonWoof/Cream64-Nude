@@ -43,10 +43,12 @@ TARGET_N3DS ?= 0
 # Build for Nintendo Switch
 TARGET_SWITCH ?= 0
 
+DISCORDRPC ?= 1
+
 # Automatic target defines
 
 # Build for Windows
-WINDOWS_BUILD ?= 0
+WINDOWS_BUILD ?= 1
 # Build for Android
 TARGET_ANDROID ?= 0
 # Makeflag to enable OSX fixes
@@ -304,7 +306,7 @@ else ifeq ($(GRUCODE),l3dex2) # Line3DEX2
   DEFINES += L3DEX2_GBI=1 L3DEX2_ALONE=1 F3DEX_GBI_2=1 F3DEX_GBI_SHARED=1
 else ifeq ($(GRUCODE),f3dex2pl) # Fast3DEX2_PosLight
   DEFINES += F3DEX2PL_GBI=1 F3DEX_GBI_2=1 F3DEX_GBI_SHARED=1
-else ifeq ($(GRUCODE),f3dzex) # Fast3DZEX (2.08J / Animal Forest - Dōbutsu no Mori)
+else ifeq ($(GRUCODE),f3dzex) # Fast3DZEX (2.08J / Animal Forest - DÅ�butsu no Mori)
   DEFINES += F3DZEX_GBI_2=1 F3DEX_GBI_2=1 F3DEX_GBI_SHARED=1
 else ifeq ($(GRUCODE),super3d) # Super3D
   $(warning Super3D is experimental. Try at your own risk.)
